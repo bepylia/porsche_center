@@ -1,0 +1,77 @@
+
+  .left  { text-align: left; }
+  .center { text-align: center; }
+  .right { text-align: right; }
+  .justify { text-align: justify; }
+  
+    nav a {
+        margin: 0 20px; 
+        display: inline-block; 
+        text-decoration: none;
+        color: #333; 
+    }
+
+    table {
+    
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    
+    
+    border-collapse: collapse; 
+    }
+
+
+table, th, td {
+    
+    border: 1px solid black; 
+}
+
+
+th, td {
+    padding: 8px;
+   
+}
+.car-gallery {
+   
+    position: relative; 
+    
+    
+    width: 100%; 
+    height: 150px; /* Установите высоту достаточную, чтобы вместить все фото */
+    border: 1px solid #ccc; /* Граница для наглядности контейнера */
+}
+
+/* 2. Каждое фото позиционируем абсолютно */
+.car-gallery img {
+    position: absolute;
+}
+
+/* 3. Задаем координаты для каждого фото по отдельности */
+
+.taycan {
+    /* Левый верхний угол */
+    top: -60px; 
+    left: 100px;
+    z-index: 3; /* Слой: над другими фото */
+}
+
+.nine-eleven {
+    /* Сдвинуто вниз и вправо, слегка перекрывает Taycan */
+    top: 20px;
+    left: 700px; 
+    z-index: 2;
+}
+
+.cayenne {
+    /* В нижнем правом углу */
+    bottom: -50px; 
+    right: 100px; 
+    z-index: 1;
+}
+.styled-line {
+            border: 0;               /* Убираем стандартную границу */
+            height: 2px;             /* Задаем толщину */
+            background-color: #333;  /* Задаем цвет */
+            margin: 20px 0;          /* Отступы сверху и снизу */
+}

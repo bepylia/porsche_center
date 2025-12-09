@@ -1,0 +1,191 @@
+<!doctype html>
+<html lang="ru">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <title>Porsche Центр Алматы</title>
+
+    <!-- Подключение CSS -->
+    <link rel="stylesheet" href="style/css_style.css">
+
+    <style>
+        .left { text-align: left; }
+        .center { text-align: center; }
+        .right { text-align: right; }
+        .justify { text-align: justify; }
+    </style>
+</head>
+
+<body style="background-color: #ccc;">
+
+    <header>
+        <h1 class="center" style="font-size: 70px;" id="site-title">Porsche Центр Алматы</h1>
+        <hr class="styled-line">
+
+        <nav style="font-size: 20px;" aria-label="Главная навигация">
+            <ul class="center">
+                <a style="font-size: larger;" href="#about">О нас</a>
+                <a style="font-size: larger;" href="#models">Модели</a>
+                <a style="font-size: larger;" href="#services">Услуги</a>
+                <a style="font-size: larger;" href="#contact">Связаться</a>
+            </ul>
+        </nav>
+
+        <hr class="styled-line">
+    </header>
+
+    <main>
+        <!-- ABOUT -->
+        <section id="about" aria-labelledby="about-heading">
+            <h1 class="center" id="about-heading">О Porsche Центр Алматы</h1>
+
+            <p style="font-size: x-large;" class="center">
+                Porsche Центр Алматы — официальный дилер Porsche в Казахстане, предлагающий современные
+                модели, сервис и фирменный опыт бренда.
+            </p>
+
+            <figure class="center">
+                <img src="img/3.jpg" alt="Фасад Porsche Центр Алматы" width="1200" height="600">
+                <figcaption style="font-size: large;">Официальный дилерский центр Porsche в Алматы.</figcaption>
+            </figure>
+
+            <h1>Наши преимущества</h1>
+            <ul>
+                <li style="font-size: larger;">Официальная гарантия Porsche AG.</li>
+                <li style="font-size: larger;">Профессиональный сервис и оригинальные запчасти.</li>
+                <li style="font-size: larger;">VIP-зона клиентов и тест-драйвы.</li>
+            </ul>
+        </section>
+
+        <!-- MODELS -->
+        <section class="center" id="models" aria-labelledby="models-heading">
+            <h1 class="center" id="models-heading">Актуальные модели Porsche</h1>
+
+            <p style="font-size: larger;" class="center">
+                Сравнительная таблица ключевых моделей Porsche, доступных в Алматы.
+            </p>
+
+            <table class="center">
+                <caption style="font-size: larger;" class="center">Технические характеристики моделей</caption>
+
+                <thead class="center">
+                    <tr class="center">
+                        <th style="font-size:xx-large;" scope="col">Модель</th>
+                        <th style="font-size:xx-large;" scope="col">Мощность (л.с.)</th>
+                        <th style="font-size:xx-large;" scope="col">Разгон 0–100</th>
+                        <th style="font-size:xx-large;" scope="col">Цена (₸)</th>
+                    </tr>
+                </thead>
+
+                <tbody>
+                    <tr>
+                        <th style="font-size:xx-large;" scope="row">Porsche Taycan</th>
+                        <td style="font-size:xx-large;">408</td>
+                        <td style="font-size:xx-large;">5.4 сек</td>
+                        <td style="font-size:xx-large;">от 69 000 000</td>
+                    </tr>
+
+                    <tr>
+                        <th style="font-size:xx-large;" scope="row">Porsche 911 Carrera</th>
+                        <td style="font-size:xx-large;">385</td>
+                        <td style="font-size:xx-large;">4.2 сек</td>
+                        <td style="font-size:xx-large;">от 98 000 000</td>
+                    </tr>
+
+                    <tr>
+                        <th style="font-size:xx-large;" scope="row">Porsche Cayenne</th>
+                        <td style="font-size:xx-large;">353</td>
+                        <td style="font-size:xx-large;">6.0 сек</td>
+                        <td style="font-size:xx-large;">от 57 000 000</td>
+                    </tr>
+                </tbody>
+            </table>
+
+            <h3>Этапы выбора автомобиля</h3>
+            <ol>
+                <li style="font-size: larger;">Выбор подходящей модели.</li>
+                <li style="font-size: larger;">Настройка комплектации.</li>
+                <li style="font-size: larger;">Тест-драйв в автосалоне.</li>
+            </ol>
+
+            <div class="car-gallery">
+                <img class="taycan" src="img/taycan.webp" alt="Porsche Taycan" width="450" height="260">
+                <img class="nine-eleven" src="img/911.avif" alt="Porsche 911 Carrera" width="460" height="140">
+                <img class="cayenne" src="img/porsche-c2.png" alt="Porsche Cayenne" width="470" height="260">
+            </div>
+        </section>
+
+        <!-- SERVICES -->
+        <section class="center" style="font-size: x-large;" id="services" aria-labelledby="services-heading">
+            <h1 class="center" style="font-size: xx-large;" id="services-heading">Сервис и обслуживание</h1>
+
+            <p>Мы предоставляем обслуживание, соответствующее стандартам Porsche AG.</p>
+
+            <dl>
+                <dt>Регламентное ТО</dt>
+                <dd>Замена расходников, диагностика всех узлов.</dd>
+
+                <dt>Кузовной ремонт</dt>
+                <dd>Официальный кузовной центр Porsche с оригинальными материалами.</dd>
+
+                <dt>Тюнинг и спортпакеты</dt>
+                <dd>Porsche Tequipment, спортивные выхлопы и аэродинамические пакеты.</dd>
+            </dl>
+
+            <img src="img/service-mobile-min.jpg" alt="Сервисная зона Porsche" width="600" height="350">
+        </section>
+
+        <!-- ASIDE -->
+        <aside class="center" style="font-size: large;" aria-labelledby="aside-heading">
+            <h2 id="aside-heading">Спецпредложения</h2>
+            <p><strong>Скидка 10%</strong> на сервис для автомобилей старше 3 лет.</p>
+            <p>Бесплатный тест-драйв для новых клиентов.</p>
+        </aside>
+
+        <!-- CONTACT FORM -->
+        <section class="center" style="font-size: large;" id="contact" aria-labelledby="contact-heading">
+            <h2 id="contact-heading">Запрос на консультацию</h2>
+
+            <form action="#" method="post">
+                <fieldset>
+                    <legend>Ваши данные</legend>
+
+                    <label for="name">Имя *</label>
+                    <input id="name" name="name" type="text" required minlength="2">
+
+                    <label for="email">Email *</label>
+                    <input id="email" name="email" type="email" required>
+
+                    <label for="phone">Телефон</label>
+                    <input id="phone" name="phone" type="tel" pattern="[\d\+\-\s\(\)]{6,}" placeholder="+7 (700) 000-0000">
+                </fieldset>
+
+                <fieldset>
+                    <legend>Интересующая модель</legend>
+
+                    <label for="car">Выберите модель</label>
+                    <select id="car" name="car">
+                        <option value="taycan">Porsche Taycan</option>
+                        <option value="911">Porsche 911</option>
+                        <option value="cayenne">Porsche Cayenne</option>
+                    </select>
+
+                    <label for="qty">Количество *</label>
+                    <input id="qty" name="qty" type="number" min="1" max="20" required>
+
+                    <label for="comment">Комментарий</label>
+                    <textarea id="comment" name="comment" minlength="10" placeholder="Ваши пожелания…"></textarea>
+                </fieldset>
+
+                <button type="submit">Отправить запрос</button>
+            </form>
+        </section>
+    </main>
+
+    <footer class="center" id="footer">
+        <p>© 2025 Porsche Центр Алматы. <a href="#site-title">Наверх</a></p>
+    </footer>
+
+</body>
+</html>
